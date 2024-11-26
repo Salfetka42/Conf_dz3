@@ -1,0 +1,19 @@
+var db_host = 7
+db: {
+    host: |db_host|,
+    port: 3306
+}
+
+var username = "admin"
+user: {
+    name: |username|,
+    age: 30
+}
+
+
+var device_id = "sensor_001"
+device: {
+    id: |device_id|,
+    status: 1
+}
+
